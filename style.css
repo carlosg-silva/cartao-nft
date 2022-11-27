@@ -2,23 +2,41 @@ body {
   margin: 0;
   padding: 0;
   background: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
 }
 
 h1,
-p {
+h2,
+h3,
+p,
+a {
   margin: 0;
   padding: 0;
 }
 
-.img {
-  padding: 30px;
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 24px;
 }
 
-.img img {
-  max-width: 100%;
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+a {
+  text-decoration: none;
+}
+
+.img {
+  display: inline-block;
+  margin: 30px;
+  width: 315px;
+  height: 315px;
+  background-image: url(images/image-equilibrium.jpg);
+  background-repeat: no-repeat;
+  background-size: 315px;
   border-radius: 10px;
-  height: 330px;
-  width: 330px;
 }
 
 .container {
@@ -34,4 +52,73 @@ p {
   height: 640px;
   border-radius: 15px;
   background: hsl(216, 50%, 16%);
+}
+
+.conteudo {
+  height: 330px;
+  padding: 0 30px;
+}
+
+.conteudo-desc {
+  font-weight: 300;
+  margin-top: 20px;
+  color: hsl(215, 51%, 70%);
+}
+
+.conteudo-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 10px 0;
+  align-items: center;
+}
+
+.conteudo-icons p {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  gap: 10px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.conteudo-icons p span {
+  font-weight: 400;
+  color: hsl(178, 100%, 50%);
+}
+
+.linha {
+  display: inline-block;
+  background: hsl(215, 32%, 27%);
+  width: 100%;
+  border-radius: 50%;
+  height: 2px;
+}
+
+/* footer */
+
+footer {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer h3 {
+  font-size: medium;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+footer h3 a {
+  color: hsl(0, 0%, 100%);
+}
+
+footer h3 a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.footer-img img {
+  display: block;
+  height: 35px;
+  border: 1px hsl(0, 0%, 100%) solid;
+  border-radius: 50%;
 }
