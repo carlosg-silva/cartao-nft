@@ -52,6 +52,11 @@ a {
     -10px 10px 40px hsl(218, 61%, 7%);
 }
 
+.img {
+  position: relative;
+  z-index: 2;
+}
+
 .img img {
   display: inline-block;
   margin: 20px 20px 0 20px;
@@ -59,6 +64,21 @@ a {
   height: 280px;
   background-size: 280px;
   border-radius: 10px;
+}
+
+.view-icon {
+  width: 280px;
+  height: 280px;
+  top: 20px;
+  left: 20px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.view-icon:hover {
+  background: url(images/icon-view.svg) no-repeat, hsla(178, 100%, 50%, 0.322);
+  background-position: 50% 50%;
+  cursor: pointer;
 }
 
 .conteudo {
