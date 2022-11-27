@@ -30,12 +30,12 @@ a {
 
 .img {
   display: inline-block;
-  margin: 30px;
-  width: 315px;
-  height: 315px;
+  margin: 20px;
+  width: 280px;
+  height: 280px;
   background-image: url(images/image-equilibrium.jpg);
   background-repeat: no-repeat;
-  background-size: 315px;
+  background-size: 280px;
   border-radius: 10px;
 }
 
@@ -48,27 +48,27 @@ a {
 }
 
 .card {
-  width: 375px;
-  height: 640px;
+  width: 320px;
+  height: 550px;
   border-radius: 15px;
   background: hsl(216, 50%, 16%);
 }
 
 .conteudo {
-  height: 330px;
-  padding: 0 30px;
+  height: 280px;
+  padding: 0 20px;
 }
 
 .conteudo-desc {
   font-weight: 300;
-  margin-top: 20px;
+  margin-top: 10px;
   color: hsl(215, 51%, 70%);
 }
 
 .conteudo-icons {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0 10px 0;
+  margin: 15px 0 5px 0;
   align-items: center;
 }
 
@@ -96,7 +96,7 @@ a {
 /* footer */
 
 footer {
-  padding-top: 20px;
+  padding-top: 15px;
   display: flex;
   align-items: center;
   gap: 20px;
