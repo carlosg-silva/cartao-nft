@@ -32,6 +32,8 @@ a {
 }
 
 .container {
+  margin-left: auto;
+  margin-bottom: auto;
   display: flex;
   align-items: center;
   justify-content: center;
